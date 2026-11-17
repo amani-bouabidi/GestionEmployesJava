@@ -1,0 +1,10 @@
+
+package tn.tunisie.gestion;
+
+import java.util.List;
+
+public interface IRechercheAvancee<T> {
+
+    List<T> rechercherParDepartement(String nomDepartement);
+
+}
